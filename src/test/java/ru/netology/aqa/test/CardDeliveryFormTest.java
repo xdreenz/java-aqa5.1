@@ -21,7 +21,7 @@ public class CardDeliveryFormTest {
     }
 
     @Test
-    void shouldSubmitSuccessfully() throws InterruptedException {
+    void shouldSubmitSuccessfully() {
         var userInfo = DataGenerator.Registration.generateUser("ru");
         String date1 = DataGenerator.generateDate(10);
         String date2 = DataGenerator.generateDate(15);
